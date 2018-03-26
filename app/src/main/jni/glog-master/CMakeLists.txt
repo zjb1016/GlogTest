@@ -1,5 +1,8 @@
 cmake_minimum_required (VERSION 3.0)
 
+#set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/../jniLibs/${ANDROID_ABI})
+
+
 if (POLICY CMP0042)
   cmake_policy (SET CMP0042 NEW)
 endif (POLICY CMP0042)
